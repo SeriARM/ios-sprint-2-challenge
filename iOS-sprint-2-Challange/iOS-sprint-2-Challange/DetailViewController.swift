@@ -20,9 +20,12 @@ class DetailViewController: UICollectionViewController {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: DetailViewCell.reuseIdentifier, for: indexPath) as? DetailViewCell else { fatalError("Error")
             
         }
-        cell.detailAboutColor.text = CrayonHelper.shared.sectionNameFor(indexPath: indexPath)
-        cell.nameOfColorLabel.text = CrayonHelper.shared.sectionTitles()
-        // cell.swatchView.backgroundColor = CrayonHelper.crayonFor(<#T##CrayonHelper#>)
+        cell.detailAboutColor.text = CrayonHelper.shared.crayonFor(indexPath: indexPath).name
+        cell.nameOfColorLabel.text = CrayonHelper.shared.sectionNameFor(indexPath: indexPath)
+        cell.topSwatchColor.backgroundColor = CrayonHelper.shared.crayonFor(indexPath: indexPath).color
+        cell.mainSwatchColor.backgroundColor = CrayonHelper.shared.crayonFor(indexPath: indexPath).color
+        cell.bottomSwatchColor.backgroundColor = CrayonHelper.shared.crayonFor(indexPath: indexPath).color
+        cell.mainColorSwatch.backgroundColor = CrayonHelper.shared.crayonFor(indexPath: indexPath).color
         
         return cell
     }
@@ -35,7 +38,7 @@ class DetailViewController: UICollectionViewController {
         
         let amount: CGFloat = 32
         layout.sectionInset = UIEdgeInsets(top: amount, left: amount, bottom: amount, right: amount)
-        layout.itemSize = CGSize(width: 120, height: 120)
+        layout.itemSize = CGSize(width: 220, height: 220)
         layout.headerReferenceSize = CGSize(width: collectionView.bounds.width, height: 32)
     }
  

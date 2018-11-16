@@ -12,8 +12,9 @@ class TableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: TableViewCell.reuseIdentifier, for: indexPath) as? TableViewCell else {fatalError("Unable to dequeue cell of prper type")}
-        cell.namelabel.text = CrayonHelper.shared.crayonFor(indexPath: indexPath).name
-     //  cell.swatchView = CrayonHelper.shared.crayonFor(indexPath: indexPath).image // cell.swatchView.image
+//        cell.nameOfColorLabel.text = CrayonHelper.shared.sectionNameFor(indexPath: indexPath)
+//        cell.detailAboutColor.text = CrayonHelper.shared.crayonFor(indexPath: indexPath)
+//      cell.swatchView = CrayonHelper.shared.crayonFor(indexPath: indexPath).image // cell.swatchView.image
         return cell
     }
     override func viewWillAppear(_ animated: Bool) {

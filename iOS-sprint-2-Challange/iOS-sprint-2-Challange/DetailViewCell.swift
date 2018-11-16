@@ -12,9 +12,7 @@ class DetailViewCell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var mainColorSwatch: UIView!
     
-    @IBAction func likeButton(_ sender: Any) {
-        
-    }
+  
     @IBAction func likeTopButton(_ sender: Any) {
         
     }
@@ -24,10 +22,9 @@ class DetailViewCell: UICollectionViewCell {
     @IBOutlet weak var nameOfColorLabel: UILabel!
     
     @IBOutlet weak var detailAboutColor: UILabel!
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-}
     
+    
+}
     
     
     
