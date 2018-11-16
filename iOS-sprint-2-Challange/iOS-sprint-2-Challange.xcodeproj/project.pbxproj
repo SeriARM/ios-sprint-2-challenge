@@ -7,19 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A597A911219F227A0069B9D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597A910219F227A0069B9D2 /* AppDelegate.swift */; };
-		A597A916219F227A0069B9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A597A914219F227A0069B9D2 /* Main.storyboard */; };
 		A597A918219F227B0069B9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A597A917219F227B0069B9D2 /* Assets.xcassets */; };
 		A597A91B219F227B0069B9D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A597A919219F227B0069B9D2 /* LaunchScreen.storyboard */; };
+		A597A92B219F23740069B9D2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597A922219F23730069B9D2 /* TableViewCell.swift */; };
+		A597A92C219F23740069B9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A597A923219F23730069B9D2 /* Main.storyboard */; };
+		A597A92D219F23740069B9D2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597A924219F23730069B9D2 /* DetailViewController.swift */; };
+		A597A92E219F23740069B9D2 /* DetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597A925219F23730069B9D2 /* DetailViewCell.swift */; };
+		A597A930219F23740069B9D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597A927219F23730069B9D2 /* AppDelegate.swift */; };
+		A597A931219F23740069B9D2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597A928219F23740069B9D2 /* TableViewController.swift */; };
+		A597A932219F23740069B9D2 /* CollectionReusableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A597A929219F23740069B9D2 /* CollectionReusableHeaderView.xib */; };
+		A597A933219F23740069B9D2 /* CollectionReusableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597A92A219F23740069B9D2 /* CollectionReusableHeaderView.swift */; };
+		A597A935219F24410069B9D2 /* Crayon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597A934219F24410069B9D2 /* Crayon.swift */; };
+		A597A937219F245F0069B9D2 /* CrayonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597A936219F245E0069B9D2 /* CrayonModel.swift */; };
+		A597A939219F29BF0069B9D2 /* Crayons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A597A938219F29BF0069B9D2 /* Crayons.xcassets */; };
+		A597A93B219F2B350069B9D2 /* tem.xib in Resources */ = {isa = PBXBuildFile; fileRef = A597A93A219F2B350069B9D2 /* tem.xib */; };
+		A597A93D219F397B0069B9D2 /* CrayonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597A93C219F397B0069B9D2 /* CrayonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A597A90D219F227A0069B9D2 /* iOS-sprint-2-Challange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-sprint-2-Challange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A597A910219F227A0069B9D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A597A915219F227A0069B9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A597A917219F227B0069B9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A597A91A219F227B0069B9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A597A91C219F227B0069B9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A597A922219F23730069B9D2 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A597A923219F23730069B9D2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A597A924219F23730069B9D2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A597A925219F23730069B9D2 /* DetailViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewCell.swift; sourceTree = "<group>"; };
+		A597A927219F23730069B9D2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A597A928219F23740069B9D2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A597A929219F23740069B9D2 /* CollectionReusableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionReusableHeaderView.xib; sourceTree = "<group>"; };
+		A597A92A219F23740069B9D2 /* CollectionReusableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionReusableHeaderView.swift; sourceTree = "<group>"; };
+		A597A934219F24410069B9D2 /* Crayon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Crayon.swift; path = ../../Crayon.swift; sourceTree = "<group>"; };
+		A597A936219F245E0069B9D2 /* CrayonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CrayonModel.swift; path = ../../CrayonModel.swift; sourceTree = "<group>"; };
+		A597A938219F29BF0069B9D2 /* Crayons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Crayons.xcassets; path = ../../Crayons.xcassets; sourceTree = "<group>"; };
+		A597A93A219F2B350069B9D2 /* tem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tem.xib; sourceTree = "<group>"; };
+		A597A93C219F397B0069B9D2 /* CrayonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrayonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +74,20 @@
 		A597A90F219F227A0069B9D2 /* iOS-sprint-2-Challange */ = {
 			isa = PBXGroup;
 			children = (
-				A597A910219F227A0069B9D2 /* AppDelegate.swift */,
-				A597A914219F227A0069B9D2 /* Main.storyboard */,
+				A597A927219F23730069B9D2 /* AppDelegate.swift */,
+				A597A92A219F23740069B9D2 /* CollectionReusableHeaderView.swift */,
+				A597A929219F23740069B9D2 /* CollectionReusableHeaderView.xib */,
+				A597A925219F23730069B9D2 /* DetailViewCell.swift */,
+				A597A924219F23730069B9D2 /* DetailViewController.swift */,
+				A597A93C219F397B0069B9D2 /* CrayonViewController.swift */,
+				A597A936219F245E0069B9D2 /* CrayonModel.swift */,
+				A597A934219F24410069B9D2 /* Crayon.swift */,
+				A597A93A219F2B350069B9D2 /* tem.xib */,
+				A597A923219F23730069B9D2 /* Main.storyboard */,
+				A597A922219F23730069B9D2 /* TableViewCell.swift */,
+				A597A928219F23740069B9D2 /* TableViewController.swift */,
 				A597A917219F227B0069B9D2 /* Assets.xcassets */,
+				A597A938219F29BF0069B9D2 /* Crayons.xcassets */,
 				A597A919219F227B0069B9D2 /* LaunchScreen.storyboard */,
 				A597A91C219F227B0069B9D2 /* Info.plist */,
 			);
@@ -93,6 +126,7 @@
 				TargetAttributes = {
 					A597A90C219F227A0069B9D2 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -119,9 +153,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A597A93B219F2B350069B9D2 /* tem.xib in Resources */,
+				A597A932219F23740069B9D2 /* CollectionReusableHeaderView.xib in Resources */,
+				A597A939219F29BF0069B9D2 /* Crayons.xcassets in Resources */,
+				A597A92C219F23740069B9D2 /* Main.storyboard in Resources */,
 				A597A91B219F227B0069B9D2 /* LaunchScreen.storyboard in Resources */,
 				A597A918219F227B0069B9D2 /* Assets.xcassets in Resources */,
-				A597A916219F227A0069B9D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,21 +169,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A597A911219F227A0069B9D2 /* AppDelegate.swift in Sources */,
+				A597A92D219F23740069B9D2 /* DetailViewController.swift in Sources */,
+				A597A937219F245F0069B9D2 /* CrayonModel.swift in Sources */,
+				A597A931219F23740069B9D2 /* TableViewController.swift in Sources */,
+				A597A933219F23740069B9D2 /* CollectionReusableHeaderView.swift in Sources */,
+				A597A935219F24410069B9D2 /* Crayon.swift in Sources */,
+				A597A93D219F397B0069B9D2 /* CrayonViewController.swift in Sources */,
+				A597A92B219F23740069B9D2 /* TableViewCell.swift in Sources */,
+				A597A930219F23740069B9D2 /* AppDelegate.swift in Sources */,
+				A597A92E219F23740069B9D2 /* DetailViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A597A914219F227A0069B9D2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A597A915219F227A0069B9D2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A597A919219F227B0069B9D2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF4QEGAU36;
 				INFOPLIST_FILE = "iOS-sprint-2-Challange/Info.plist";
@@ -287,6 +325,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Sergey.iOS-sprint-2-Challange";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,6 +335,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF4QEGAU36;
 				INFOPLIST_FILE = "iOS-sprint-2-Challange/Info.plist";

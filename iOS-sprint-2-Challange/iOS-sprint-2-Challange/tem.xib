@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="cev-a9-HEq">
+            <rect key="frame" x="0.0" y="0.0" width="512" height="479"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="G8z-bk-EAz">
+                    <rect key="frame" x="0.0" y="0.0" width="512" height="479"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GYf-Hq-7Us">
+                            <rect key="frame" x="225" y="0.0" width="62.5" height="343"/>
+                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="25"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AtH-nt-53m">
+                            <rect key="frame" x="136" y="351" width="240" height="128"/>
+                        </imageView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="H6S-ij-mca" firstAttribute="bottom" secondItem="G8z-bk-EAz" secondAttribute="bottom" id="6EE-EG-zLV"/>
+                <constraint firstItem="H6S-ij-mca" firstAttribute="trailing" secondItem="G8z-bk-EAz" secondAttribute="trailing" id="K2A-tz-0R6"/>
+                <constraint firstItem="G8z-bk-EAz" firstAttribute="top" secondItem="H6S-ij-mca" secondAttribute="top" id="fvp-zy-nP9"/>
+                <constraint firstItem="G8z-bk-EAz" firstAttribute="leading" secondItem="H6S-ij-mca" secondAttribute="leading" id="hlN-84-H0i"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="H6S-ij-mca"/>
+            <point key="canvasLocation" x="206.40000000000001" y="149.77511244377811"/>
+        </collectionReusableView>
+    </objects>
+</document>
