@@ -5,6 +5,8 @@ import UIKit
 class DetailViewCell: UICollectionViewCell {
     static let reuseIdentifier = "cell"
 
+    
+    
     @IBOutlet weak var topSwatchColor: UIView!
     @IBOutlet weak var mainSwatchColor: UIView!
     @IBOutlet weak var bottomSwatchColor: UIView!

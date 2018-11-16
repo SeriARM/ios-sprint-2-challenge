@@ -2,6 +2,8 @@
 
 import UIKit
 class TableViewController: UITableViewController {
+
+   
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return CrayonHelper.shared.sectionCount
@@ -31,5 +33,11 @@ class TableViewController: UITableViewController {
     }
     override func sectionIndexTitles(for tableView: UITableView) -> [String]? {
         return CrayonHelper.shared.sectionTitles()
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let indexPath = tableView.indexPathForSelectedRow else { return }
+        
+        guard let destination = segue.destination as? DetailViewController else { return }
+        
     }
 }
