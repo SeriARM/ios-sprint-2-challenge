@@ -15,12 +15,17 @@ class DetailViewCell: UICollectionViewCell {
     @IBAction func likeButton(_ sender: Any) {
         
     }
-    @IBAction func likeButton(_ sender: Any) {
+    @IBAction func likeTopButton(_ sender: Any) {
         
     }
-    @IBAction func unlikeBoutton(_ sender: Any) {
+    @IBAction func likeBottomButton(_ sender: Any) {
     }
     
+    @IBOutlet weak var nameOfColorLabel: UILabel!
+    
+    @IBOutlet weak var detailAboutColor: UILabel!
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
 }
     
     

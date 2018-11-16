@@ -20,8 +20,8 @@ class DetailViewController: UICollectionViewController {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: DetailViewCell.reuseIdentifier, for: indexPath) as? DetailViewCell else { fatalError("Error")
             
         }
-        
-        cell.namelabel.text = CrayonHelper.shared.sectionNameFor(indexPath: indexPath)
+        cell.detailAboutColor.text = CrayonHelper.shared.sectionNameFor(indexPath: indexPath)
+        cell.nameOfColorLabel.text = CrayonHelper.shared.sectionTitles()
         // cell.swatchView.backgroundColor = CrayonHelper.crayonFor(<#T##CrayonHelper#>)
         
         return cell

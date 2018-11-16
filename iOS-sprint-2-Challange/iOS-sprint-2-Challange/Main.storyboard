@@ -32,7 +32,7 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <state key="normal" title="Like/Unlike"/>
                                                         <connections>
-                                                            <action selector="likeButton:" destination="oxi-QE-YH8" eventType="touchUpInside" id="JrZ-lz-zia"/>
+                                                            <action selector="likeTopButton:" destination="oxi-QE-YH8" eventType="touchUpInside" id="64D-TX-syQ"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -72,7 +72,7 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <state key="normal" title="Like/Unlike"/>
                                                         <connections>
-                                                            <action selector="unlikeBoutton:" destination="oxi-QE-YH8" eventType="touchUpInside" id="T8h-BP-dju"/>
+                                                            <action selector="likeBottomButton:" destination="oxi-QE-YH8" eventType="touchUpInside" id="5Li-2n-d6o"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -107,9 +107,11 @@
                         <viewLayoutGuide key="safeArea" id="7bu-ZG-xht"/>
                         <connections>
                             <outlet property="bottomSwatchColor" destination="ZyN-fF-7Ak" id="F8p-qO-R7T"/>
+                            <outlet property="detailAboutColor" destination="LoY-QU-DkI" id="ALr-Tk-xfv"/>
                             <outlet property="imageView" destination="e7x-91-giL" id="I4e-Pb-epW"/>
                             <outlet property="mainColorSwatch" destination="DGs-rk-ebu" id="cZo-QY-71p"/>
                             <outlet property="mainSwatchColor" destination="DGs-rk-ebu" id="tzs-YN-Aoy"/>
+                            <outlet property="nameOfColorLabel" destination="hZL-PU-mdd" id="apj-Hk-fIZ"/>
                             <outlet property="topSwatchColor" destination="MOa-ad-tjg" id="3jb-Cc-NTT"/>
                         </connections>
                     </view>
