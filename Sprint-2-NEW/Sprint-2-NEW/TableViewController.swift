@@ -22,7 +22,6 @@ class TableViewController: UITableViewController {
                 else { fatalError("Unable to dequeue proper cell") }
             
             // Customize the cell
-           
             cell.colorTitleLabel.text = CrayonHelper.shared.crayonFor(indexPath: indexPath).name
             
             cell.backColor.backgroundColor = CrayonHelper.shared.crayonFor(indexPath: indexPath).color
