@@ -8,4 +8,5 @@ class TableViewCell: UITableViewCell {
     @IBOutlet var colorTitleLabel: UILabel!
     @IBOutlet var mainImageView: UIImageView!
     
+    @IBOutlet weak var backColor: UIView!
 }

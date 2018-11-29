@@ -61,6 +61,7 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="backColor" destination="UK7-YK-gWK" id="48T-3G-wvG"/>
                                     <outlet property="colorTitleLabel" destination="IuW-hy-gJn" id="dro-OE-NX0"/>
                                     <outlet property="mainImageView" destination="d1S-iE-UJX" id="HBi-Zu-9zK"/>
                                     <segue destination="rp6-Mq-MA2" kind="show" id="aRp-pU-mOU"/>

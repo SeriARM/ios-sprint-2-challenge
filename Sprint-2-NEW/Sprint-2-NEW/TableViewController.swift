@@ -25,7 +25,10 @@ class TableViewController: UITableViewController {
            
             cell.colorTitleLabel.text = CrayonHelper.shared.crayonFor(indexPath: indexPath).name
             
+            cell.backColor.backgroundColor = CrayonHelper.shared.crayonFor(indexPath: indexPath).color
+            
             cell.mainImageView.image = CrayonHelper.shared.crayonFor(indexPath: indexPath).image
+            
             return cell
         }
         override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
