@@ -38,4 +38,4 @@ class DetailViewController: UITableViewController {
         
     }
     
-}
+
