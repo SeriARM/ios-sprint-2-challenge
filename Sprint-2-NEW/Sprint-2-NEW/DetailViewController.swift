@@ -22,19 +22,19 @@ class DetailViewController: UIViewController {
     
     
     
-//    override func viewWillAppear(_ animated: Bool) {
-//        super.viewWillAppear(animated)
-//        guard let crayon = crayon else {fatalError("no color")}
-//        
-//        view.backgroundColor = crayon.color
-//        pictureImageView.image = crayon.image
-//        colorNameLabel.text = crayon.name
-//        topViewColor.backgroundColor = crayon.color
-//        mainViewColor.backgroundColor = crayon.color
-//        bottomViewColor.backgroundColor = crayon.color
-//        
-//      
-//        }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        guard let crayon = crayon else {fatalError("no color")}
+        
+        view.backgroundColor = crayon.color
+        pictureImageView.image = crayon.image
+        colorNameLabel.text = crayon.name
+        topViewColor.backgroundColor = crayon.color
+        mainViewColor.backgroundColor = crayon.color
+        bottomViewColor.backgroundColor = crayon.color
+        
+      
+        }
         
     }
     
