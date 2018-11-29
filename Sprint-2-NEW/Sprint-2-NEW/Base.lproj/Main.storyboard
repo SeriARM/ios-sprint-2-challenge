@@ -63,7 +63,7 @@
                                 <connections>
                                     <outlet property="colorTitleLabel" destination="IuW-hy-gJn" id="dro-OE-NX0"/>
                                     <outlet property="mainImageView" destination="d1S-iE-UJX" id="HBi-Zu-9zK"/>
-                                    <segue destination="rp6-Mq-MA2" kind="show" id="bEu-JJ-NUQ"/>
+                                    <segue destination="rp6-Mq-MA2" kind="show" id="aRp-pU-mOU"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -114,7 +114,7 @@
                                                             <constraint firstAttribute="bottom" secondItem="ty1-W7-MGQ" secondAttribute="bottom" constant="8" id="qCy-R3-3Oy"/>
                                                         </constraints>
                                                     </view>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dfh-gS-j1f">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dfh-gS-j1f">
                                                         <rect key="frame" x="70" y="76" width="195" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="100" id="kw7-Uo-atm"/>
