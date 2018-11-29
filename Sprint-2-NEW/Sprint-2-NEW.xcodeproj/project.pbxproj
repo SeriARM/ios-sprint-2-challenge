@@ -14,9 +14,7 @@
 		A530E88221B047F200AB7DBD /* CrayonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530E88021B047F200AB7DBD /* CrayonModel.swift */; };
 		A530E88321B047F200AB7DBD /* Crayon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530E88121B047F200AB7DBD /* Crayon.swift */; };
 		A530E88521B0480D00AB7DBD /* Crayons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A530E88421B0480D00AB7DBD /* Crayons.xcassets */; };
-		A530E88721B0492D00AB7DBD /* ReusableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530E88621B0492D00AB7DBD /* ReusableHeaderView.swift */; };
 		A530E88921B0496800AB7DBD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530E88821B0496800AB7DBD /* TableViewController.swift */; };
-		A530E88B21B049C800AB7DBD /* ReusableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A530E88A21B049C800AB7DBD /* ReusableHeaderView.xib */; };
 		A530E88D21B04B7600AB7DBD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530E88C21B04B7600AB7DBD /* TableViewCell.swift */; };
 		A530E88F21B04BA200AB7DBD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530E88E21B04BA200AB7DBD /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
@@ -31,9 +29,7 @@
 		A530E88021B047F200AB7DBD /* CrayonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CrayonModel.swift; path = ../../CrayonModel.swift; sourceTree = "<group>"; };
 		A530E88121B047F200AB7DBD /* Crayon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Crayon.swift; path = ../../Crayon.swift; sourceTree = "<group>"; };
 		A530E88421B0480D00AB7DBD /* Crayons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Crayons.xcassets; path = ../../Crayons.xcassets; sourceTree = "<group>"; };
-		A530E88621B0492D00AB7DBD /* ReusableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableHeaderView.swift; sourceTree = "<group>"; };
 		A530E88821B0496800AB7DBD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		A530E88A21B049C800AB7DBD /* ReusableHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReusableHeaderView.xib; sourceTree = "<group>"; };
 		A530E88C21B04B7600AB7DBD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		A530E88E21B04BA200AB7DBD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,8 +71,6 @@
 				A530E88821B0496800AB7DBD /* TableViewController.swift */,
 				A530E88C21B04B7600AB7DBD /* TableViewCell.swift */,
 				A530E88E21B04BA200AB7DBD /* DetailViewController.swift */,
-				A530E88621B0492D00AB7DBD /* ReusableHeaderView.swift */,
-				A530E88A21B049C800AB7DBD /* ReusableHeaderView.xib */,
 				A530E87521B0473A00AB7DBD /* Assets.xcassets */,
 				A530E88421B0480D00AB7DBD /* Crayons.xcassets */,
 				A530E87721B0473A00AB7DBD /* LaunchScreen.storyboard */,
@@ -146,7 +140,6 @@
 				A530E87921B0473A00AB7DBD /* LaunchScreen.storyboard in Resources */,
 				A530E87621B0473A00AB7DBD /* Assets.xcassets in Resources */,
 				A530E87421B0473900AB7DBD /* Main.storyboard in Resources */,
-				A530E88B21B049C800AB7DBD /* ReusableHeaderView.xib in Resources */,
 				A530E88521B0480D00AB7DBD /* Crayons.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,7 +153,6 @@
 			files = (
 				A530E88321B047F200AB7DBD /* Crayon.swift in Sources */,
 				A530E86F21B0473900AB7DBD /* AppDelegate.swift in Sources */,
-				A530E88721B0492D00AB7DBD /* ReusableHeaderView.swift in Sources */,
 				A530E88D21B04B7600AB7DBD /* TableViewCell.swift in Sources */,
 				A530E88921B0496800AB7DBD /* TableViewController.swift in Sources */,
 				A530E88221B047F200AB7DBD /* CrayonModel.swift in Sources */,
