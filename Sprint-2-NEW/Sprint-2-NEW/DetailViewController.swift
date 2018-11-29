@@ -31,4 +31,4 @@ class DetailViewController: UITableViewController {
         
     } 
     
-} 
+}  
