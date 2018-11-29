@@ -3,26 +3,11 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
-//override func viewDidLoad() {
-//    super.viewDidLoad()
-//    
-//    let headernib = UINib(nibName: "ReusableHeaderView", bundle: nil)
-//    TableViewController.register(headernib, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: ReusableHeaderView.reuseIdentifier)
-//}
-//
-//override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-//    
-//    guard kind == UICollectionView.elementKindSectionHeader
-//        else { fatalError("Failed to request header") }
-//    
-//    guard let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: ReusableHeaderView.reuseIdentifier, for: indexPath) as? CollectionReusableHeaderView
-//        else { fatalError("Unable to dequeue header") }
-//    
-//    header.nameLabel.text = CrayonHelper.shared.sectionNameFor(indexPath: indexPath)
-//    
-//    return header
-//}
-    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.reloadData()
+    }
+
         // number of sections, number of rows, and cell for row
         override func numberOfSections(in tableView: UITableView) -> Int {
             return CrayonHelper.shared.sectionCount
@@ -63,8 +48,11 @@ class TableViewController: UITableViewController {
         cell.backgroundColor = UIColor.clear
 }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let indexPath = tableView.indexPathForSelectedRow else { return }
-        guard let destination = segue.destination as? DetailViewController else { return }
-        destination.crayon = CrayonHelper.shared.crayonFor(indexPath: indexPath)
+        
+        guard let destination = segue.destination as? DetailViewController,
+            let indexPath = tableView.indexPathForSelectedRow else { return }
+        // let crayon = CrayonHelper.shared.crayonFor(indexPath: IndexPath.init(row: 0, section: 0))
+        let crayon = CrayonHelper.shared.crayonFor(indexPath: indexPath)
+        destination.crayon = crayon
     }
 }

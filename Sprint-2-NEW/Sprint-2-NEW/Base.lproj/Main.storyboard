@@ -63,7 +63,7 @@
                                 <connections>
                                     <outlet property="colorTitleLabel" destination="IuW-hy-gJn" id="dro-OE-NX0"/>
                                     <outlet property="mainImageView" destination="d1S-iE-UJX" id="HBi-Zu-9zK"/>
-                                    <segue destination="rp6-Mq-MA2" kind="show" id="QbE-64-wSC"/>
+                                    <segue destination="rp6-Mq-MA2" kind="show" id="Chg-9X-PVQ"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

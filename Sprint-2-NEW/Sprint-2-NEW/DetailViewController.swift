@@ -11,7 +11,7 @@ class DetailViewController: UITableViewController {
     @IBOutlet weak var pictureImageView: UIImageView!
     
     @IBAction func likeTopButton(_ sender: Any) {
-        
+        // need func
     }
     @IBAction func likeBottomButton(_ sender: Any) {
     }
@@ -19,15 +19,22 @@ class DetailViewController: UITableViewController {
     @IBOutlet weak var colorNameLabel: UILabel!
     @IBOutlet weak var colorInfo: UILabel!
     
+    
+    
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         guard let crayon = crayon else {fatalError("no color")}
         
+        view.backgroundColor = crayon.color
         pictureImageView.image = crayon.image
         colorNameLabel.text = crayon.name
         topViewColor.backgroundColor = crayon.color
         mainViewColor.backgroundColor = crayon.color
         bottomViewColor.backgroundColor = crayon.color
+        
+      
+        }
         
     }
     
