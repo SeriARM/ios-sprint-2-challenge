@@ -29,6 +29,6 @@ class DetailViewController: UITableViewController {
         mainViewColor.backgroundColor = crayon.color
         bottomViewColor.backgroundColor = crayon.color
         
-    } 
+    }  
     
 }
