@@ -13,8 +13,6 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var likeTopButton: UIButton!
     @IBOutlet weak var likeBottemButton: UIButton!
     @IBAction func likeTopButton(_ sender: Any) {
-        // need func
-        
        updaiteButtonTitle()
     }
     @IBAction func likeBottomButton(_ sender: Any) {
@@ -39,7 +37,6 @@ class DetailViewController: UIViewController {
         
     }
     
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         guard let crayon = crayon else {fatalError("no color")}
@@ -50,7 +47,9 @@ class DetailViewController: UIViewController {
         topViewColor.backgroundColor = crayon.color
         mainViewColor.backgroundColor = crayon.color
         bottomViewColor.backgroundColor = crayon.color
-//        colorInfo.text = crayon.contrastingColor()
+        // colorInfo.text = crayon.
+        var (r, g, b): (CGFloat, CGFloat, CGFloat) = (0, 0, 0)
+        crayon.color.getRed(&r, green: &g, blue: &b, alpha: nil)
         
     }
 }
