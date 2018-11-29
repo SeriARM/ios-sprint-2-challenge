@@ -52,9 +52,7 @@ class DetailViewController: UIViewController {
         bottomViewColor.backgroundColor = crayon.color
 //        colorInfo.text = crayon.contrastingColor()
         
-      
-        }
-    
     }
-    
+}
+
 
