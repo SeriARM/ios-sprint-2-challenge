@@ -63,7 +63,7 @@
                                 <connections>
                                     <outlet property="colorTitleLabel" destination="IuW-hy-gJn" id="dro-OE-NX0"/>
                                     <outlet property="mainImageView" destination="d1S-iE-UJX" id="HBi-Zu-9zK"/>
-                                    <segue destination="rp6-Mq-MA2" kind="show" id="E4T-vc-2T5"/>
+                                    <segue destination="rp6-Mq-MA2" kind="show" id="bEu-JJ-NUQ"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -231,7 +231,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e8U-4H-6f2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12" y="142.57871064467767"/>
+            <point key="canvasLocation" x="196" y="143"/>
         </scene>
     </scenes>
 </document>
