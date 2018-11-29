@@ -89,7 +89,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p4n-WD-jCY">
                                 <rect key="frame" x="16" y="94" width="343" height="423"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="588-ga-sCh" customClass="DetailViewCell" customModule="iOS_sprint_2_Challange" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="588-ga-sCh" customClass="DetailViewCell" customModule="Sprint_2_NEW" customModuleProvider="target">
                                         <rect key="frame" x="8" y="20" width="327" height="401"/>
                                         <subviews>
                                             <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="EzY-hy-CdZ" userLabel="Top Color">
@@ -200,6 +200,8 @@
                         <outlet property="bottomViewColor" destination="CxW-DZ-s5l" id="Vfx-Xa-dxL"/>
                         <outlet property="colorInfo" destination="TeI-RK-20p" id="kj0-6i-Z2P"/>
                         <outlet property="colorNameLabel" destination="MMq-fS-0MV" id="0GJ-8e-grg"/>
+                        <outlet property="likeBottemButton" destination="FIL-8g-nzJ" id="U1D-Fy-W1M"/>
+                        <outlet property="likeTopButton" destination="ty1-W7-MGQ" id="tMF-pS-FLE"/>
                         <outlet property="mainViewColor" destination="LMI-bh-4oR" id="j6A-TK-Xaq"/>
                         <outlet property="pictureImageView" destination="dfh-gS-j1f" id="arz-7a-L5h"/>
                         <outlet property="topViewColor" destination="EzY-hy-CdZ" id="Vx7-os-XOh"/>

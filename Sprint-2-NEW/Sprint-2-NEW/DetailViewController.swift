@@ -10,16 +10,34 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var pictureImageView: UIImageView!
     
+    @IBOutlet weak var likeTopButton: UIButton!
+    @IBOutlet weak var likeBottemButton: UIButton!
     @IBAction func likeTopButton(_ sender: Any) {
         // need func
+        
+       updaiteButtonTitle()
     }
     @IBAction func likeBottomButton(_ sender: Any) {
+        updaiteButtonTitle()
     }
     
     @IBOutlet weak var colorNameLabel: UILabel!
     @IBOutlet weak var colorInfo: UILabel!
     
-    
+    func updaiteButtonTitle() {
+        
+        if crayon?.isLiked == false {
+            crayon?.isLiked = true
+            likeTopButton.setTitle("❤️", for: .normal)
+            likeBottemButton.setTitle("❤️", for: .normal)
+        } else if crayon?.isLiked == true {
+            crayon?.isLiked = false
+            likeTopButton.setTitle("🤔", for: .normal)
+            likeBottemButton.setTitle("🤔", for: .normal)
+      
+        }
+        
+    }
     
     
     override func viewWillAppear(_ animated: Bool) {
@@ -33,6 +51,7 @@ class DetailViewController: UIViewController {
         mainViewColor.backgroundColor = crayon.color
         bottomViewColor.backgroundColor = crayon.color
 //        colorInfo.text = crayon.contrastingColor()
+        
       
         }
     
