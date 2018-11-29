@@ -97,7 +97,7 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ty1-W7-MGQ">
                                                         <rect key="frame" x="20" y="8" width="271" height="30"/>
-                                                        <state key="normal" title="Like/Unlike"/>
+                                                        <state key="normal" title="🤔"/>
                                                         <connections>
                                                             <action selector="likeTopButton:" destination="rp6-Mq-MA2" eventType="touchUpInside" id="ZVu-Re-hbh"/>
                                                         </connections>
@@ -150,7 +150,7 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIL-8g-nzJ">
                                                         <rect key="frame" x="20" y="8" width="271" height="30"/>
-                                                        <state key="normal" title="Like/Unlike"/>
+                                                        <state key="normal" title="🤔"/>
                                                         <connections>
                                                             <action selector="likeBottomButton:" destination="rp6-Mq-MA2" eventType="touchUpInside" id="ZJ3-tv-fec"/>
                                                         </connections>
