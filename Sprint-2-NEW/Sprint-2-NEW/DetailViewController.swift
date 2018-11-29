@@ -32,10 +32,10 @@ class DetailViewController: UIViewController {
         topViewColor.backgroundColor = crayon.color
         mainViewColor.backgroundColor = crayon.color
         bottomViewColor.backgroundColor = crayon.color
-        
+//        colorInfo.text = crayon.contrastingColor()
       
         }
-        
+    
     }
     
 
